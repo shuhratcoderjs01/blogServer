@@ -5,7 +5,12 @@ const dotenv = require("dotenv").config()
 const PORT = process.env.PORT || 5050
 const app = express()
 
-// app.get(')
+
+app.get('/' , (req , res)=>{
+
+   res.send('hello from simple server :)')
+
+})
 
 
 
